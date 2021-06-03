@@ -1,0 +1,116 @@
+body{
+       margin:0;
+       padding:0;
+       width:100%;
+       font-family: 'Ubuntu', sans-serif;
+
+   }
+     #nav{
+         float: right;
+         width: 600px;
+       margin-top: 10px;
+   }
+    #master{
+
+       background-color:#ddd;
+      /* height:50px;*/
+       margin-top:20px;
+      /* position:fixed;*/
+   }
+   .container1{
+       max-width:1040px;
+       border:1px solid black;
+       margin:0 auto;
+       background-color:rgb(218, 221, 233) ;
+   }
+   .blogContainer{
+                  max-width:1040px;
+           border:1px solid black;
+           margin:0 auto;
+           background-color:rgb(218, 221, 233) ;
+       }
+   }
+   .section{
+       border:1px solid #ddd;
+       min-height: 500px;
+       max-width:1040px;
+   }
+   .clear{
+       clear:both
+   }
+   #section1{
+       background: url('http://placeimg.com/1000/1000/tech');
+       background-size:cover;
+   }
+   #section2{
+       background-color: #fff;
+   }
+   .center {
+       margin: auto;
+       width: 70%;
+              padding: 10px;
+              clear: both;
+     }
+
+   #float-child{
+
+       display: inline-block;
+   }
+   .main{
+       display: inline-block;
+   }
+   .textarea{
+       width: 500px;
+       height: 300px;
+         }
+  .textColor{
+   color: #2B547E;
+   /*--rgb(20, 155, 173);*/
+  }
+
+  .textsize{
+    width:500px;
+    height: 30px;
+    font-style:
+  }
+
+  .textbold{
+    font-weight: bold;
+    background-color: red;
+  }
+
+   #section3{
+       background-color: #333;
+       background: url('http://placeimg.com/1000/1000/nature');
+       background-size:cover;
+       color:white;
+
+   }
+   .wrap{
+       display: inline-block;
+               background-color: rgb(200,200,200);
+       background-color: rgba(200,200,200,0.5);
+       border-radius: 20px;
+       padding:30px;
+       margin:40px auto;
+     width:100%;
+       text-align: justify;
+       text-justify: inter-word;
+   }
+   .wrapText{
+       text-align: justify left;
+       text-justify: inter-word;
+   }
+   #footer{
+       background-color: #333;
+       color: white;
+       text-align: center;
+       font-size: 10px;
+   }
+   .header{
+      color: #151B54 ;
+       text-align:center ;
+       font-size: 40px;
+       font-weight: bolder;
+
+   }

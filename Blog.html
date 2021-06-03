@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equi="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale =1.0">
+        <title>Blog Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="addBlog.js"></script>
+    </head>
+
+    <body>
+
+        <header id="master">
+            <div>
+
+                <nav id="nav">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#!">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Contacts</a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+        </header >
+
+        <div class="blogContainer">
+          <section  class="section clear">
+           <div class="center">
+
+             <table>
+               <tr>
+                 <td>
+                   Title:
+                 </td>
+                 <td>
+                   <input type="text" id="title" class="textsize"  />
+                  </td>
+              </tr>
+              <tr>
+                <td>
+                  Article:
+                </td>
+                <td>
+                  <textarea name="article" id="article" class ="textarea" ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Image:
+                </td>
+                <td><input type="file" id="file" />
+
+            <!--<input type="button" id="image" class="align" /><button></button>
+            <span id="custom-text"> No File Chosen, yet.</span>-->
+              </td>
+        <!--<td><input type="image" id="image" alt="img-submit.gif" alt="submit"/></td>-->
+            </tr>
+
+            <tr>
+              <td colspan="2" style="text-align: center">  <input type = "button" value = "Add" onclick="upload()" /></td>
+            </tr>
+          </table>
+
+        <hr/>
+
+
+          <div id="float-container">
+          <div id="float-child" id="imagePreview"></div>
+        <!--  <img id= "imgPreview" src="" alt = "Preview">-->
+
+
+           </div>
+        </section>
+        <section id = "section2" class="section clear">
+
+            <div id="main" class="textbold"></div>
+                  <!--<div class="col-6 col-md-4" style="background: url('http://placeimg.com/1200/400/people')"></div>-->
+
+        </section>
+
+        <footer style="text-align: center; font-size: 10px;">
+            <div >
+                <p>© 2021 Infopro Learning, Inc. All rights reserved</p>
+
+            </div>
+        </footer>
+    </div>
+    </body>
+</html>
